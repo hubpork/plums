@@ -17,7 +17,7 @@
 	    // do something
 	  }
 	}]]></content>
-	<tabTrigger>pl-iftouchjs</tabTrigger>
+	<tabTrigger>pl-iftouch</tabTrigger>
 	<description>If Touch Device</description>
-	<scope>javascript</scope>
+	<scope>prj.js</scope>
 </snippet>
