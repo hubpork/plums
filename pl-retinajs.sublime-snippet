@@ -12,5 +12,5 @@
 	}]]></content>
 	<tabTrigger>pl-retinajs</tabTrigger>
     <description>Inline Retina Image</description>
-	<scope>javascript</scope>
+	<scope>prj.js</scope>
 </snippet>

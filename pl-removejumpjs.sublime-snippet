@@ -19,5 +19,5 @@
 	}]]></content>
 	<tabTrigger>pl-removejumpjs</tabTrigger>
 	<description>Remove Jump Input IOS</description>
-	<scope>javascript</scope>
+	<scope>prj.js</scope>
 </snippet>

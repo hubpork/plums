@@ -13,11 +13,11 @@
 	  deviceAgent.match(/bada/i));
 
 	  if(isTouchDevice) {
-	    $('html').addClass('touchpad');
+	    $('html').addClass('${1:this}');
 	    // do something
 	  }
 	}]]></content>
-	<tabTrigger>pl-iftouch</tabTrigger>
+	<tabTrigger>pl-iftouchjs</tabTrigger>
 	<description>If Touch Device</description>
-	<scope>prj.js</scope>
+	<scope>source.js</scope>
 </snippet>
