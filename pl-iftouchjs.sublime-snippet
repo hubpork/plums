@@ -18,6 +18,6 @@
 	  }
 	}]]></content>
 	<tabTrigger>pl-iftouchjs</tabTrigger>
-    <description>If Touch Device</description>
+	<description>If Touch Device</description>
 	<scope>javascript</scope>
 </snippet>
