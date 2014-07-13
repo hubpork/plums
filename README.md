@@ -1,4 +1,4 @@
 plums
 =====
 
-Plums are common patterns of markup &amp; style
+Plums are common patterns of markup, styles &amp; jQuery snippets
