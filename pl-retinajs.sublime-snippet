@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[//make it for retina work
+	//<img src="myimage.jpg" data-2x="myimage@2x.jpg">
+	if(window.devicePixelRatio >= 1.2){
+	    var images = document.getElementsByTagName('img');
+	    for(var i=0;i < images.length;i++){
+	        var attr = images[i].getAttribute('data-2x');
+	        if(attr){
+	            images[i].src = attr;
+	        }
+	    }
+	}]]></content>
+	<tabTrigger>ps-retinajs</tabTrigger>
+    <description>Inline Retina Image</description>
+	<scope>javascript</scope>
+</snippet>
