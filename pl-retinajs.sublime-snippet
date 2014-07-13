@@ -10,7 +10,7 @@
 	        }
 	    }
 	}]]></content>
-	<tabTrigger>ps-retinajs</tabTrigger>
+	<tabTrigger>pl-retinajs</tabTrigger>
     <description>Inline Retina Image</description>
 	<scope>javascript</scope>
 </snippet>

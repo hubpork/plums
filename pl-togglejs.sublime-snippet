@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[//smart toggle
+	$('#button_of_toggle').on('click', function(e) {
+	  e.preventDefault();
+	  e.stopPropagation();
+
+	  if( $(this).hasClass('active') ){
+	    $(this).removeClass('active');
+	    $('#panel_to_open').fadeOut('fast');
+	  }else{
+	    $(this).addClass('active');
+	    $('#panel_to_open').show();
+	    //$('#username').focus(); //optional
+	  }
+
+	  //optional click on document
+	  $(document).on('click', function(e){
+	      if($('#panel_to_open').has(e.target).length === 0){
+	          $('#panel_to_open').hide();
+	          $('#button_of_toggle').removeClass('active');
+	      }
+	  });
+
+	});]]></content>
+	<tabTrigger>pl-togglejs</tabTrigger>
+    <description>Smart Toggle</description>
+	<scope>javascript</scope>
+</snippet>
